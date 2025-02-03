@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif:wght@400&display=swap');
+@media screen and (max-width: 375px) {
+  .container {
+      max-width:375px;
+      height:fit-content
+      padding: unset;
+      margin: unset;
+      box-sizing: content-box;
+  }
+
+  body{
+      padding:0;
+      margin:0;
+  }
+
+}
+
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: hsl(30, 54%, 90%);
+  font-family:"Young Serif" , serif;
+  line-height: 1.5rem;
+}
+
+
+.container{
+  background-color: white;
+  padding: 1.75rem;
+  max-width: 720px;
+  max-height: 1440px;
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 1.5rem;
+}
+
+img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+#main-heading{
+  font-size: 34px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+#content{
+  font-weight: 100;
+  font-size: 16px;
+  color:hsl(30, 18%, 87%);
+}
+
+.list1{
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+#preparation{
+  color: hsl(332, 51%, 32%);
+  font-weight: 400;
+  font-size: 18px;
+  
+}
+
+#bold-content{
+  color: hsl(30, 10%, 34%);
+  font-weight: 700;
+  margin-left:12px;
+
+}
+
+.list1 li{
+  padding: 5px 10px;
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+
+  
+  
+}
+.list1 ul{
+  list-style-position: inside;
+}
+
+.list1 li::marker{
+  list-style: circle;
+  color: hsl(332, 51%, 32%);
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+#sub-heading{
+  color: hsl(14, 45%, 36%);
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.list2{
+  color:hsl(30, 10%, 34%);
+  padding: 10px;
+}
+
+.ingredients .list2 {
+  list-style-position: inside;
+  font-size: 16px;
+  margin-bottom: 10px;
+  
+}
+.ingredients .list2::marker{
+  list-style: circle;
+  color:hsl(30, 10%, 34%);
+}
+
+
+
+.instructions #sub-heading{
+  margin-top: 20px;
+}
+
+.instructions ol{
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+.instructions ol li::marker {
+  font-size: 18px;
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+
+hr{
+  width: 100%;
+  color: hsl(30, 18%, 87%);
+}
+
+table{
+  width: 375px;
+  border-collapse: collapse;
+
+}
+
+tr{
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  border-width: 75%;
+}
+
+td{
+  padding: 2px 40px; 
+}
+
+#bold-data{
+  color:hsl(14, 45%, 36%);
+  font-weight: 700;
+}
